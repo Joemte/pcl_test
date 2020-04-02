@@ -1,5 +1,6 @@
 # pcl_test
 Ubuntu安装pcl，并配置cmake
+
 1、安装各种依赖包
 sudo apt-get install g++
 sudo apt-get install cmake cmake-gui
@@ -24,9 +25,10 @@ sudo apt-get install libopenni-dev libopenni2-dev
 cd pcl-pcl-1.9.1/
 mkdir build
 cd build/
-cmake -DPCL_DIR=/usr/local/share/pcl-1.9 …
-
+cmake -
+DPCL_DIR=/usr/local/share/pcl-1.9 …
 注意这个会默认安装到/usr/local目录下，而pcl1.7默认是在/usr/include和/usr/lib下的
+
 3、编译
 make
 sudo make install
