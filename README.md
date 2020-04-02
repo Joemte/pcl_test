@@ -1,6 +1,5 @@
 # pcl_test
 Ubuntu安装pcl，并配置cmake
-
 1、安装各种依赖包
 sudo apt-get install g++
 sudo apt-get install cmake cmake-gui
@@ -31,6 +30,3 @@ cmake -DPCL_DIR=/usr/local/share/pcl-1.9 …
 3、编译
 make
 sudo make install
-————————————————
-版权声明：本文为CSDN博主「Joemt」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/OEMT_301/article/details/105199996
